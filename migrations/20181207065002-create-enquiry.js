@@ -54,5 +54,5 @@ module.exports = {
   }
 };
 
-//type: Sequelize.DATE  //SQLite does not have a storage class set aside for storing dates and/or times.
+//type: Sequelize.TEXT datatype for date in sqlite3  //SQLite does not have a storage class set aside for storing dates and/or times.
  //......SQLite are capable of storing dates and times as TEXT, REAL, or INTEGER values
